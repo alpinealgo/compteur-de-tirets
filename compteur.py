@@ -141,7 +141,7 @@ def main():
     if not fichiers:
         raise SystemExit(__doc__)
     total = sum(compter(f, permis, discret) for f in fichiers)
-    print("TOTAL : %d faute(s)" % total)
+    print("Total : %d faute(s)" % total)
     sys.exit(1 if total else 0)
 
 
